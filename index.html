@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--웹브라우저에게 HTML 버전을 알려주는 역할. 이렇게 사용하면 자동으로 html5 사용  -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+  <!--웹사이트의 제목을 쓸 떄 title을 사용. 브라우저 탭에도 나오고 방문기록에도 나온다. -->
+  <meta charset="utf-8">
+  <!-- 어디에서 실행하든 한글이 깨지지 않도록 설정. utf-8은 한글을 지원하는 대표적인 인코딩. -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    h1{
+      font-size: 64px;
+      text-align: center;
+    }
+
+    h3{
+      margin-top: 100px;
+    }
+
+    p b{
+    /* 단락 안에 존재하는 b만 폰트 지정하겠다. */
+      font-size: 48px;
+    }
+
+    .paul{
+      font-size: 64px;
+      color: blue;
+    }
+
+    .centered-text{
+      text-align: center;
+    }
+
+    #best-text{
+      color: orange;
+      text-align: center;
+    }
+
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My <i>First</i> Website</h1>
+  <!-- heading 1의 약자로 가장 큰 머리말을 사용할 때 쓴다. -->
+  <h2>I love HTML!</h2>
+  <!--위와 동일하며 두 번쨰로 큰 머리말 -->
+  <h3>안녕 세상!</h3>
+  <img src="images/PaulKim.jpg" width="300" height="300">
+  <p class="paul centered-text">폴킴</p>
+  <p id="best-text">ID 사용</p>
+  <p>Lorem ipsum dolor <b>sit</b> ament, consectectur adipiscing elit, sed do eiusmod tmpor incididunt ut labore et dolor magna aliqua.</p>
+  <!--paragraph의 약자로 문단을 나눌때 사용. -->
+  <a href="http://google.com" target="_blank">구글로 가는 링크</a>
+  <a href="folder1/page1.html">page 1</a>
+  <a href="folder"></a>
+</body>
+</html>
